@@ -1,5 +1,10 @@
-# FiscalCyclicality
-Project1
-Step 1: Estimate fiscal cyclicality by country (government spending/ 3 tax rates) average the whole period/good times/bad times by Prais-Winsten/OLS (RSE) respectively.
-data.dta is STATA file for processing fiscal cyclicality (So the dataset for panel regression in different with more obs since there is less demanding on the no. of obs for each country).
-fiscalcyclicality.do contains all STATA codes for processing fiscal cyclicality and how to merge all into the 'fiscyl.dta'.
+1. DATA60.dta: Main series are sourced from WDI.
+a. for panel data regression 1960-2016
+b. for fiscal cyclicality (government spending, 3 tax rates), by Prais-Winsten/OLS (RSE) on average (ie. the whole period)/at good times/ at bad times.
+
+
+2. DATA80.dta: Main series are sourced from WEO2018.
+a. for panel data regression 1980-2016. 
+b. for fiscal cyclicality (government spending)
+
+3. fiscalcyclicality.do --> contains all codes of the project (except figures).
